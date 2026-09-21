@@ -3,7 +3,7 @@ from urllib.parse import parse_qs
 import json
 
 HOST = "0.0.0.0"
-PORT = 5175
+PORT = 5176
 
 HTML = r"""<!DOCTYPE html>
 <html lang="vi">
