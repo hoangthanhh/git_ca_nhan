@@ -1,15 +1,5 @@
-# Thư mục tài nguyên tĩnh sinh ra hoặc không đưa vào Git
-static/
-
-# Cache và bytecode Python
 __pycache__/
-*.py[cod]
-
-# Môi trường ảo
-.venv/
-venv/
-env/
-
-# File hệ điều hành và IDE
-.DS_Store
+*.pyc
+static/chart.png
 .vscode/
+thanh.a
