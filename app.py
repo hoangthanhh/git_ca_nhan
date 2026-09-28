@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 app = Flask(__name__)
 
-
+# nhanh master - test conflict
 @app.route("/", methods=["GET", "POST"])
 def index():
     male = None
