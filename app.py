@@ -13,12 +13,12 @@ def index():
         male = int(request.form["male"])
         female = int(request.form["female"])
 
-        // du lieu de ve bieu do
-        labels = ["Nam", "Nữ"] // ten cot
-        values = [male, female] // so luong sv
+        #  du lieu de ve bieu do
+        labels = ["Nam", "Nữ"] # ten cot
+        values = [male, female] # so luong sv
 
-        plt.figure() // tao hinh ve moi
-        plt.bar(labels, values) // tao bieu do cot
+        plt.figure() # tao hinh ve moi
+        plt.bar(labels, values) # tao bieu do cot
         plt.xlabel("Giới tính")
         plt.ylabel("Số sinh viên")
         plt.title("Số lượng sinh viên nam và nữ")
