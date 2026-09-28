@@ -1,4 +1,8 @@
 __pycache__/
 *.pyc
 static/chart.png
+<<<<<<< HEAD
 .vscode/
+=======
+.vscode/
+>>>>>>> master
